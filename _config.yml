@@ -11,6 +11,11 @@ collections:
   productos:
     title: productos
     output: true
+    name:
+    - camiseta1
+    imagen: patapata.jpg
+    Field name:
+      Key: 
 defaults:
 - scope:
     path: ''

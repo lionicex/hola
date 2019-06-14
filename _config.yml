@@ -1,0 +1,37 @@
+---
+title: lionicex
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  locations:
+    title: locations
+    output: true
+  people:
+    title: people
+    output: true
+  productos:
+    title: productos
+    output: true
+    name:
+    - camiseta1
+    imagen: patapata.jpg
+    Field name:
+      Key: 
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    permalink: "/posts/:title/"
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+permalink: pretty
